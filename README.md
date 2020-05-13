@@ -1,1 +1,1 @@
-# reactjs-search-repositories-github
+# react-search-repositories-github
