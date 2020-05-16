@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Routes from './Routes.jsx';
 import './App.css';
 
