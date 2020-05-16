@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React from 'react';
 import PageNotFound from './pages/errors/PageNotFound.jsx';
 import SignIn from './pages/SignIn.jsx';
@@ -9,8 +9,8 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={SignIn} />
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/signIn" component={SignIn} />
+          <Route exact path="/" component={Home} />
           <PageNotFound />
         </Switch>
       </Router>
