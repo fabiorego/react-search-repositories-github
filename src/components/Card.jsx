@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Card.css';
 
 export default function Card(props) {
   function onClickView() {
@@ -6,33 +7,36 @@ export default function Card(props) {
   }
 
   return (
-    <div class="container">
-      <div id="repos-list" class="column">
-        <div class="col-md-4 mb-4">
-          <div className="">
-            <div className="">
-              <img src={props.url_avatar} className="my-img-profile" alt="Avatar Usuario" />
-            </div>
+    <div className="card-result">
+      <div className="card-result-img">
+        <img src={props.url_avatar} className="card-result-img-profile" alt="Avatar Usuario" />
+      </div>
 
-            <div className="">
-              <div className="">{props.name}</div>
-              <div className="">
-                by <b>{props.username}</b>
-              </div>
-            </div>
-
-            <div className="">{props.description}</div>
-
-            <div className="">
-              <button onClick={onClickView} className="">
-                View
-              </button>
-              <button className="">
-                <i className="fas fa-star"></i> {props.stars}
-              </button>
-            </div>
-          </div>
+      <div className="card-result-repo">
+        <div className="card-result-repo-name">{props.name}</div>
+        <div className="card-result-repo-username">
+          <b>{props.username}</b>
         </div>
+      </div>
+
+      <div className="card-result-repo-description">{props.description}</div>
+
+      <div className="card-result-repo-actions-buttons">
+        <button
+          onClick={onClickView}
+          className="card-result-repo-buttons card-result-repo-button-view"
+        >
+          View
+        </button>
+        <button className="card-result-repo-buttons card-result-repo-button-watchers">
+          <i className="fas fa-eye"></i> {props.watchers}
+        </button>
+        <button className="card-result-repo-buttons card-result-repo-button-stars">
+          <i className="fas fa-star"></i> {props.stars}
+        </button>
+        <button className="card-result-repo-buttons card-result-repo-button-forks">
+          <i className="fas fa-code-branch"></i> {props.forks}
+        </button>
       </div>
     </div>
   );

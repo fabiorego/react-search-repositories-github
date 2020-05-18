@@ -1,18 +1,14 @@
 import React from 'react';
+import '../App.css';
 
 export default function Loading(props) {
   const loading = props.display;
   return (
-    <div className="" style={{ display: loading }}>
-      <div className="">
-        <div id="loading" class="loading-container">
-          <div class="d-flex justify-content-center align-items-center loader">
-            <div class="spinner-border text-primary" role="status">
-              <span class="sr-only">Loading...</span>
-            </div>
-          </div>
-        </div>
+    <div className="loading-content" style={{ display: loading }}>
+      <div className="loading-image">
+        <i className="fas fa-spinner spinnerLoading"></i>
       </div>
+      <div className="loading-text">Making it happen</div>
     </div>
   );
 }
