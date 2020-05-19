@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading snapshot 1`] = `
+<div
+  className="loading-content"
+  style={
+    Object {
+      "display": undefined,
+    }
+  }
+>
+  <div
+    className="loading-image"
+  >
+    <i
+      className="fas fa-spinner spinnerLoading"
+    />
+  </div>
+  <div
+    className="loading-text"
+  >
+    One Moment
+  </div>
+</div>
+`;

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card snapshot 1`] = `
+<div
+  className="card-result"
+>
+  <div
+    className="card-result-img"
+  >
+    <img
+      alt="Avatar Usuario"
+      className="card-result-img-profile"
+    />
+  </div>
+  <div
+    className="card-result-repo"
+  >
+    <div
+      className="card-result-repo-name"
+    />
+    <div
+      className="card-result-repo-username"
+    >
+      <b />
+    </div>
+  </div>
+  <div
+    className="card-result-repo-description"
+  />
+  <div
+    className="card-result-repo-actions-buttons"
+  >
+    <button
+      className="card-result-repo-buttons card-result-repo-button-view"
+      onClick={[Function]}
+    >
+      View
+    </button>
+    <button
+      className="card-result-repo-buttons card-result-repo-button-watchers"
+    >
+      <i
+        className="fas fa-eye"
+      />
+       
+    </button>
+    <button
+      className="card-result-repo-buttons card-result-repo-button-stars"
+    >
+      <i
+        className="fas fa-star"
+      />
+       
+    </button>
+    <button
+      className="card-result-repo-buttons card-result-repo-button-forks"
+    >
+      <i
+        className="fas fa-code-branch"
+      />
+       
+    </button>
+  </div>
+</div>
+`;

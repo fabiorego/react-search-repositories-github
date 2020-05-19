@@ -27,14 +27,6 @@ class NotFound extends React.Component {
             <h1 className="title-page-not-found">UPS...</h1>
             <h2 className="title-page-not-found">Page not found...</h2>
           </div>
-
-          {/* <button
-            type="button"
-            className="btn btn-lg btn-primary button-page-not-found-back"
-            onClick={this.handleBack}
-          >
-            Back
-          </button> */}
         </div>
       </main>
     );
