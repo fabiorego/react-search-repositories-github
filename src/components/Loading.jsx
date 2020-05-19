@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './../App.css';
 
 export default function Loading(props) {
   const loading = props.display;
@@ -8,7 +8,7 @@ export default function Loading(props) {
       <div className="loading-image">
         <i className="fas fa-spinner spinnerLoading"></i>
       </div>
-      <div className="loading-text">Making it happen</div>
+      <div className="loading-text">One Moment</div>
     </div>
   );
 }

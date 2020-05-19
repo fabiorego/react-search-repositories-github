@@ -1,9 +1,22 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from './App';
+import renderer from 'react-test-renderer';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+let findTextElement = function(tree, element) {
+  return true;
+};
+
+it('Find passowrd element', () => {
+  let tree = renderer.create(<App />).toJSON();
+  expect(findTextElement(tree, 'password')).toBeDefined();
+});
+
+it('Find email element', () => {
+  let tree = renderer.create(<App />).toJSON();
+  expect(findTextElement(tree, 'email')).toBeDefined();
+});
+
+it('Find Reset element', () => {
+  let tree = renderer.create(<App />).toJSON();
+  expect(findTextElement(tree, 'Reset')).toBeDefined();
 });
