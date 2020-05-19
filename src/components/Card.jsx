@@ -9,7 +9,7 @@ export default function Card(props) {
   return (
     <div className="card-result">
       <div className="card-result-img">
-        <img src={props.url_avatar} className="card-result-img-profile" alt="Avatar Usuario" />
+        <img src={props.url_avatar} className="card-result-img-profile" alt="Avatar User" />
       </div>
 
       <div className="card-result-repo">
