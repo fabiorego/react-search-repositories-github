@@ -1,0 +1,100 @@
+.card-result {
+  width: 30%;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border: 0.5px solid rgba(1, 1, 1, 0.1);
+  border-bottom: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(240, 240, 240, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(240, 240, 240, 1);
+  box-shadow: 0px 0px 5px 0px rgba(240, 240, 240, 1);
+  cursor: pointer;
+}
+.card-result-img {
+  width: 25%;
+  height: 100px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-result-img-profile {
+  width: 60px;
+  border-radius: 40%;
+}
+.card-result-repo {
+  width: 75%;
+  height: 70px;
+  padding-left: 10px;
+}
+.card-result-repo-name {
+  width: 100%;
+  height: 40px;
+  padding-top: 12px;
+  display: flex;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card-result-repo-username {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+.card-result-repo-description {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px 20px 20px 20px;
+  font-size: 14px;
+
+  color: rgba(1, 1, 1, 0.6);
+}
+.card-result-repo-actions-buttons {
+  width: 100%;
+  min-height: 20px;
+}
+.card-result-repo-buttons {
+  width: 25%;
+  padding: 4px;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(1, 1, 1, 0.6);
+  background-color: rgba(115, 115, 115, 0.1);
+
+  border: 1px solid rgba(1, 1, 1, 0.1);
+
+  outline: none;
+  text-decoration: none;
+}
+.card-result-repo-button-view {
+  border-radius: 0px 0px 0px 3px;
+  border-right: 0;
+  border-left: 0;
+  background-color: #f8f8ff;
+}
+.card-result-repo-button-forks {
+  border-radius: 0px 0px 3px 0px;
+  background-color: #f8f8ff;
+}
+.card-result-repo-button-watchers {
+  border-radius: 0px 0px 3px 0px;
+  background-color: #f8f8ff;
+}
+.card-result-repo-button-stars {
+  border-radius: 0px 0px 3px 0px;
+  background-color: #f8f8ff;
+}
+
+@media (max-width: 1039.98px) {
+  .card-result {
+    width: 100%;
+  }
+}
