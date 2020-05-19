@@ -81,6 +81,7 @@ footer p {
   -moz-box-shadow: 0px 0px 5px 0px rgba(115, 115, 115, 1);
   box-shadow: 0px 0px 5px 0px rgba(115, 115, 115, 1);
 }
+
 .home-repository-search-title {
   width: 100%;
   padding: 0px 0px 10px 0px;
@@ -128,27 +129,39 @@ footer p {
   #root {
     width: 670px;
   }
+
   .home-repository-search-title {
     font-size: 22px;
   }
+
   .home-repository-search-subtitle {
     font-size: 14px;
   }
+  .buttonContainer {
+    margin-top: 10px;
+  }
 }
+
 @media (max-width: 767.98px) {
   #root {
     width: 100%;
     margin: 0px 30px 0px 30px;
   }
+
   .home-repository-search-container {
     width: 100%;
     margin-right: 0;
     flex-wrap: wrap;
   }
 }
+
 @media (max-width: 500.98px) {
   #root {
     width: 100%;
     margin: 0;
+  }
+
+  .buttonContainer {
+    margin-top: 10px;
   }
 }

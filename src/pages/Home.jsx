@@ -147,13 +147,19 @@ class Home extends React.Component {
                   required
                   autoFocus
                 />
-
-                <button className="btn btn-primary" type="submit">
-                  Search
-                </button>
-                <button className="btn btn-secondary" type="reset" onClick={this.handleReset}>
-                  Clear
-                </button>
+                <div className="buttonContainer">
+                  <button className="btn btn-primary" style={{ marginLeft: 10 }} type="submit">
+                    Search
+                  </button>
+                  <button
+                    className="btn btn-secondary"
+                    type="reset"
+                    style={{ marginLeft: 10 }}
+                    onClick={this.handleReset}
+                  >
+                    Clear
+                  </button>
+                </div>
               </form>
             </div>
           </section>
