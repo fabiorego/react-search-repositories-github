@@ -108,6 +108,10 @@ There are several unit tests made with Jest. Each test is located at **src/pages
 
 Styling was used with some Bootstrap components, such as Form and Buttons.
 
+## Improvements
+
+In the SignIn page display a loading message/spinner during 2000ms. For now, when the user clicks the submit button in the SignIn page, he is automatically redirected to Repositories page (after 2000ms) without user feedback.
+
 ## Authors
 
 - **Fábio Rêgo** - [Github](https://github.com/fabiorego)
